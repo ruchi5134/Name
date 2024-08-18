@@ -17,7 +17,7 @@ from config import BANNED_USERS
 async def ping_com(client, message: Message, _):
     start = datetime.now()
     response = await message.reply_photo(
-        photo="https://telegra.ph/file/c8183c9f6573f7eb799d2.jpg",
+        photo="https://telegra.ph/file/a9cdad2a972022f082903.jpg",
         caption=_["ping_1"].format(app.mention),
     )
     pytgping = await PURVI.ping()
