@@ -29,13 +29,10 @@ from strings import get_string
 #--------------------------
 
 NEXI_VID = [
-"https://telegra.ph/file/88ad00ec16e231a238907.jpg",
-"https://telegra.ph/file/3c20ab1c3eb882d9a479b.jpg",
-"https://telegra.ph/file/4647ee70cefeae2d0e2d2.jpg",
-"https://telegra.ph/file/67ca2f32934bbce81ad16.jpg",
-"https://telegra.ph/file/d51a837b17fb53c3e752c.jpg",
-"https://telegra.ph/file/fa4130d97c1b0221ddc7f.jpg",
-"https://telegra.ph/file/db16c315a9e0990894764.jpg",
+"https://telegra.ph/file/22857d655615e5b1e182c.mp4",
+"https://graph.org/file/46302d88a9b314e97c99c.mp4",
+"https://graph.org/file/1d5e768ac97d3f5bb20ad.mp4",
+"https://graph.org/file/73a1683d29f57774be795.mp4",
 
 ]
 
@@ -49,7 +46,7 @@ async def start_pm(client, message: Message, _):
         name = message.text.split(None, 1)[1]
         if name[0:4] == "help":
             keyboard = help_pannel(_)
-            return await message.reply_photo(
+            return await message.reply_video(
                 random.choice(NEXI_VID),
                 caption=_["help_1"].format(config.SUPPORT_CHAT),
                 reply_markup=keyboard,
@@ -101,7 +98,7 @@ async def start_pm(client, message: Message, _):
                 )
     else:
         out = private_panel(_)
-        await message.reply_photo(
+        await message.reply_video(
             random.choice(NEXI_VID),
             caption=_["start_2"].format(message.from_user.mention, app.mention),
             reply_markup=InlineKeyboardMarkup(out),
@@ -118,7 +115,7 @@ async def start_pm(client, message: Message, _):
 async def start_gp(client, message: Message, _):
     out = start_panel(_)
     uptime = int(time.time() - _boot_)
-    await message.reply_photo(
+    await message.reply_video(
         random.choice(NEXI_VID),
         caption=_["start_1"].format(app.mention, get_readable_time(uptime)),
         reply_markup=InlineKeyboardMarkup(out),
@@ -153,7 +150,7 @@ async def welcome(client, message: Message):
                     return await app.leave_chat(message.chat.id)
 
                 out = start_panel(_)
-                await message.reply_photo(
+                await message.reply_video(
                     random.choice(NEXI_VID),
                     caption=_["start_3"].format(
                         message.from_user.mention,
