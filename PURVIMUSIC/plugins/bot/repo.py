@@ -7,7 +7,7 @@ import httpx
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 start_txt = """**
-✪ ωεℓᴄσмє fσʀ 🅓🅗🅟🅡 ʀєρσѕ ✪
+✪ ωεℓᴄσмє fσʀ 🅢︎🅨︎🅢︎🅣︎🅔︎🅜︎ ʀєρσѕ ✪
  
  ➲ ᴀʟʟ ʀᴇᴘᴏ ᴇᴀsɪʟʏ ᴅᴇᴘʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴇʀʀᴏʀ ✰
  
@@ -36,20 +36,20 @@ async def start(_, msg):
           InlineKeyboardButton("𝗢𝗪𝗡𝗘𝗥", url="https://t.me/OWNER_DHPR"),
           ],
                [
-                InlineKeyboardButton("🅓🅗🅟🅡", url=f"https://github.com/Deepking88/DHPROP"),
+                InlineKeyboardButton("🅢︎🅨︎🅢︎🅣︎🅔︎🅜︎", url=f"https://github.com/Deepking88/DHPROP"),
 
 ],
 [
-              InlineKeyboardButton("🅓🅗🅟🅡", url=f"https://github.com/Deepking88/DHPROP"),
-              InlineKeyboardButton("︎🅓🅗🅟🅡", url=f"https://github.com/Deepking88/DHPROP"),
+              InlineKeyboardButton("🅢︎🅨︎🅢︎🅣︎🅔︎🅜︎", url=f"https://github.com/Deepking88/DHPROP"),
+              InlineKeyboardButton("︎🅢︎🅨︎🅢︎🅣︎🅔︎🅜︎", url=f"https://github.com/Deepking88/DHPROP"),
               ],
               [
-              InlineKeyboardButton("🅓🅗🅟🅡", url=f"https://github.com/Deepking88/DHPROP"),
-InlineKeyboardButton("🅓🅗🅟🅡", url=f"https://github.com/Deepking88/DHPROP"),
+              InlineKeyboardButton("🅢︎🅨︎🅢︎🅣︎🅔︎🅜︎", url=f"https://github.com/Deepking88/DHPROP"),
+InlineKeyboardButton("🅢︎🅨︎🅢︎🅣︎🅔︎🅜︎", url=f"https://github.com/Deepking88/DHPROP"),
 ],
 [
-InlineKeyboardButton("🅓🅗🅟🅡", url=f"https://github.com/Deepking88/DHPROP"),
-InlineKeyboardButton("🅓🅗🅟🅡", url=f"https://github.com/Deepking88/DHPROP"),
+InlineKeyboardButton("🅢︎🅨︎🅢︎🅣︎🅔︎🅜︎", url=f"https://github.com/Deepking88/DHPROP"),
+InlineKeyboardButton("🅢︎🅨︎🅢︎🅣︎🅔︎🅜︎", url=f"https://github.com/Deepking88/DHPROP"),
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
