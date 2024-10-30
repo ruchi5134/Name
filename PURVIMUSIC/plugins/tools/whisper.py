@@ -17,9 +17,9 @@ async def _whisper(_, inline_query):
     if len(data.split()) < 2:
         mm = [
             InlineQueryResultArticle(
-                title="💒 Whisper",
+                title="⍟ ᴄʟɪᴄᴋ-ʜᴇʀᴇ ⍟",
                 description=f"@SystemMusicBot [ USERNAME | ID ] [ TEXT ]",
-                input_message_content=InputTextMessageContent(f"💒 Usage:\n\n@SystemMusicBot [ USERNAME | ID ] [ TEXT ]"),
+                input_message_content=InputTextMessageContent(f"😍 Usage:\n\n@SystemMusicBot [ USERNAME | ID ] [ TEXT ]"),
                 thumb_url="https://telegra.ph/file/a9cdad2a972022f082903.jpg",
                 reply_markup=switch_btn
             )
@@ -36,7 +36,7 @@ async def _whisper(_, inline_query):
         except:
             mm = [
                 InlineQueryResultArticle(
-                    title="💒 Whisper",
+                    title="⍟ ᴄʟɪᴄᴋ-ʜᴇʀᴇ ⍟",
                     description="Invalid username or ID!",
                     input_message_content=InputTextMessageContent("Invalid username or ID!"),
                     thumb_url="https://telegra.ph/file/a9cdad2a972022f082903.jpg",
@@ -45,20 +45,20 @@ async def _whisper(_, inline_query):
             ]
         
         try:
-            whisper_btn = InlineKeyboardMarkup([[InlineKeyboardButton("💒 Whisper", callback_data=f"fdaywhisper_{inline_query.from_user.id}_{user.id}")]])
-            one_time_whisper_btn = InlineKeyboardMarkup([[InlineKeyboardButton("🔩 One-Time Whisper", callback_data=f"fdaywhisper_{inline_query.from_user.id}_{user.id}_one")]])
+            whisper_btn = InlineKeyboardMarkup([[InlineKeyboardButton("⍟ ᴄʟɪᴄᴋ-ʜᴇʀᴇ ⍟", callback_data=f"fdaywhisper_{inline_query.from_user.id}_{user.id}")]])
+            one_time_whisper_btn = InlineKeyboardMarkup([[InlineKeyboardButton("⍟ ᴄʟɪᴄᴋ-ʜᴇʀᴇ ⍟", callback_data=f"fdaywhisper_{inline_query.from_user.id}_{user.id}_one")]])
             mm = [
                 InlineQueryResultArticle(
-                    title="💒 Whisper",
+                    title="⍟ ᴄʟɪᴄᴋ-ʜᴇʀᴇ ⍟",
                     description=f"Send a Whisper to {user.first_name}!",
-                    input_message_content=InputTextMessageContent(f"💒 You are sending a whisper to {user.first_name}.\n\nType your message/sentence."),
+                    input_message_content=InputTextMessageContent(f"😍 You are sending a whisper to {user.first_name}.\n\nType your message/sentence."),
                     thumb_url="https://telegra.ph/file/a9cdad2a972022f082903.jpg",
                     reply_markup=whisper_btn
                 ),
                 InlineQueryResultArticle(
-                    title="🔩 One-Time Whisper",
+                    title="⍟ ᴄʟɪᴄᴋ-ʜᴇʀᴇ ⍟",
                     description=f"Send a one-time whisper to {user.first_name}!",
-                    input_message_content=InputTextMessageContent(f"🔩 You are sending a one-time whisper to {user.first_name}.\n\nType your message/sentence."),
+                    input_message_content=InputTextMessageContent(f"😍 You are sending a one-time whisper to {user.first_name}.\n\nType your message/sentence."),
                     thumb_url="https://telegra.ph/file/a9cdad2a972022f082903.jpg",
                     reply_markup=one_time_whisper_btn
                 )
@@ -82,7 +82,7 @@ async def whispes_cb(_, query):
     to_user = int(data[2])
     user_id = query.from_user.id
     
-    if user_id not in [from_user, to_user, 6691393517]:
+    if user_id not in [from_user, to_user, 7299227823]:
         try:
             await _.send_message(from_user, f"{query.from_user.mention} is trying to open your whisper.")
         except Unauthorized:
@@ -97,7 +97,7 @@ async def whispes_cb(_, query):
     except:
         msg = "🚫 Error!\n\nWhisper has been deleted from the database!"
     
-    SWITCH = InlineKeyboardMarkup([[InlineKeyboardButton("Go Inline 🪝", switch_inline_query_current_chat="")]])
+    SWITCH = InlineKeyboardMarkup([[InlineKeyboardButton("⍟ Go Inline ⍟", switch_inline_query_current_chat="")]])
     
     await query.answer(msg, show_alert=True)
     
@@ -109,9 +109,9 @@ async def whispes_cb(_, query):
 async def in_help():
     answers = [
         InlineQueryResultArticle(
-            title="💒 Whisper",
+            title="⍟ ᴄʟɪᴄᴋ-ʜᴇʀᴇ ⍟",
             description=f"@SystemMusicBot [USERNAME | ID] [TEXT]",
-            input_message_content=InputTextMessageContent(f"**📍Usage:**\n\n@SystemMusicBot (Target Username or ID) (Your Message).\n\n**Example:**\n@Heeer_music_Bot @username I Wanna Phuck You"),
+            input_message_content=InputTextMessageContent(f"**📍Usage:**\n\n@SystemMusicBot (Target Username or ID) (Your Message).\n\n**Example:**\n@SystemMusicBot @username I Wanna fuck You"),
             thumb_url="https://telegra.ph/file/a9cdad2a972022f082903.jpg",
             reply_markup=switch_btn
         )
