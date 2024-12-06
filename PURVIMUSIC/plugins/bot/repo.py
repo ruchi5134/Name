@@ -33,7 +33,7 @@ async def start(_, msg):
         ],
         [
           InlineKeyboardButton("𝗛𝗘𝗟𝗣", url="https://t.me/FONT_CHANNEL_01"),
-          InlineKeyboardButton("𝗢𝗪𝗡𝗘𝗥", url="https://t.me/OWNER_DHPR"),
+          InlineKeyboardButton("𝗢𝗪𝗡𝗘𝗥", url="https://t.me/APNA_SYSTEM"),
           ],
                [
                 InlineKeyboardButton("🅢︎🅨︎🅢︎🅣︎🅔︎🅜︎", url=f"https://github.com/Deepking88/DHPROP"),
@@ -55,7 +55,7 @@ InlineKeyboardButton("🅢︎🅨︎🅢︎🅣︎🅔︎🅜︎", url=f"https:/
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
-        photo="https://telegra.ph/file/75151029dc8ea68cb74e0.jpg",
+        photo="https://files.catbox.moe/0wxapk.jpg",
         caption=start_txt,
         reply_markup=reply_markup
     )
