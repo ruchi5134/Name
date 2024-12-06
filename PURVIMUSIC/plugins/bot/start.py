@@ -29,12 +29,16 @@ from strings import get_string
 #--------------------------
 
 NEXI_VID = [
-"https://telegra.ph/file/22857d655615e5b1e182c.mp4",
-"https://graph.org/file/46302d88a9b314e97c99c.mp4",
-"https://graph.org/file/1d5e768ac97d3f5bb20ad.mp4",
-"https://graph.org/file/73a1683d29f57774be795.mp4",
-"https://graph.org/file/6df22ea452ff85e0e61e6.mp4",
-"https://graph.org/file/9efa615cb935fc4b16395.mp4",
+"https://files.catbox.moe/wc5izp.mp4",
+"https://files.catbox.moe/7pdo67.mp4",
+"https://files.catbox.moe/69n2ky.mp4",
+"https://files.catbox.moe/e3mn4l.mp4",
+"https://files.catbox.moe/i3m3ow.mp4",
+"https://files.catbox.moe/knyqc7.mp4",
+"https://files.catbox.moe/lk2rwu.mp4",
+"https://files.catbox.moe/wtbd4h.mp4",
+"https://files.catbox.moe/42zyc6.mp4",
+"https://files.catbox.moe/vvxf8h.mp4",
     
 ]
 
