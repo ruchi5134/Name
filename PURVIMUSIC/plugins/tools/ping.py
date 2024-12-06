@@ -12,12 +12,12 @@ from PURVIMUSIC.utils.inline import supp_markup
 from config import BANNED_USERS
 
 
-@app.on_message(filters.command("ping", prefixes=["/", "!", "%", ",", "", ".", "@", "#"]) & ~BANNED_USERS)
+@app.on_message(filters.command("ping", prefixes=["/", "!", "%", ",", ".", "@", "#"]) & ~BANNED_USERS)
 @language
 async def ping_com(client, message: Message, _):
     start = datetime.now()
     response = await message.reply_photo(
-        photo="https://telegra.ph/file/a9cdad2a972022f082903.jpg",
+        photo="https://files.catbox.moe/0wxapk.jpg",
         caption=_["ping_1"].format(app.mention),
     )
     pytgping = await PURVI.ping()
