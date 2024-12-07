@@ -36,20 +36,20 @@ async def start(_, msg):
           InlineKeyboardButton("𝗢𝗪𝗡𝗘𝗥", url="https://t.me/APNA_SYSTEM"),
           ],
                [
-                InlineKeyboardButton("🅢︎🅨︎🅢︎🅣︎🅔︎🅜︎", url=f"https://github.com/Deepking88/DHPROP"),
+                InlineKeyboardButton("ʀᴏʏᴀʟ ǫᴜᴇᴇɴ", url=f"https://t.me/Queen_op_bot"),
 
 ],
 [
-              InlineKeyboardButton("🅢︎🅨︎🅢︎🅣︎🅔︎🅜︎", url=f"https://github.com/Deepking88/DHPROP"),
-              InlineKeyboardButton("︎🅢︎🅨︎🅢︎🅣︎🅔︎🅜︎", url=f"https://github.com/Deepking88/DHPROP"),
+              InlineKeyboardButton("ʟᴏᴠᴇ ᴍᴜsɪᴄ", url=f"https://t.me/Love_x_musicbot"),
+              InlineKeyboardButton("︎sʏsᴛᴇᴍ ᴍᴜsɪᴄ", url=f"https://t.me/SystemMusicBot"),
               ],
               [
-              InlineKeyboardButton("🅢︎🅨︎🅢︎🅣︎🅔︎🅜︎", url=f"https://github.com/Deepking88/DHPROP"),
-InlineKeyboardButton("🅢︎🅨︎🅢︎🅣︎🅔︎🅜︎", url=f"https://github.com/Deepking88/DHPROP"),
+              InlineKeyboardButton("ᴀʀᴀᴅʜʏᴀ ᴍᴜsɪᴄ", url=f"https://t.me/Aradhya_Music_Bot"),
+InlineKeyboardButton("ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ", url=f"https://t.me/DHPRHELPBOT"),
 ],
 [
-InlineKeyboardButton("🅢︎🅨︎🅢︎🅣︎🅔︎🅜︎", url=f"https://github.com/Deepking88/DHPROP"),
-InlineKeyboardButton("🅢︎🅨︎🅢︎🅣︎🅔︎🅜︎", url=f"https://github.com/Deepking88/DHPROP"),
+InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ", url=f"https://t.me/Exampurrs"),
+InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ", url=f"https://System_network_support"),
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -78,7 +78,7 @@ async def repo(_, message):
             list_of_users += f"{count}. [{user['login']}]({user['html_url']})\n"
             count += 1
 
-        text = f"""[𝖱𝖤𝖯𝖮 𝖫𝖨𝖭𝖪](https://github.com/Deepking88/DHPROP) | [𝖦𝖱𝖮𝖴𝖯](https://t.me/exampurrs)
+        text = f"""[𝖱𝖤𝖯𝖮 𝖫𝖨𝖭𝖪](https://t.me/APNA_SYSTEM) | [𝖦𝖱𝖮𝖴𝖯](https://t.me/exampurrs)
 | 𝖢𝖮𝖭𝖳𝖱𝖨𝖡𝖴𝖳𝖮𝖱𝖲 |
 ----------------
 {list_of_users}"""
