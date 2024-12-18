@@ -36,3 +36,13 @@ async def pinterest(_, message):
      except Exception as e:
            await msg.delete()
            return await message.reply(f"ᴇʀʀᴏʀ : {e}")
+        
+        await app.send_media_group(
+                chat_id=chat_id, 
+                media=media_group,
+                reply_to_message_id=message.id)
+        return await msg.delete()
+
+     except Exception as e:
+           await msg.delete()
+           return await message.reply(f"ᴇʀʀᴏʀ : {e}")
