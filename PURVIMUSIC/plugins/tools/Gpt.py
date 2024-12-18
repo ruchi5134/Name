@@ -69,6 +69,16 @@ async def chat_gpt(bot, message):
                         result = response_data["choices"][0]["message"]["content"]
                         await message.reply_text(
                             f"{result} \n\nＡɴsᴡᴇʀᴇᴅ ʙʏ➛[˹ sʏsᴛᴇᴍ-ᴍᴜsɪᴄ ˼](https://t.me/FONT_CHANNEL_01)",
+                            reply_markup=InlineKeyboardMarkup(
+                        [
+                            [
+                                InlineKeyboardButton(
+                                    "  ɴᴀɴᴄʏ-ᴍᴜsɪᴄ ",
+                                    url=http://t.me/FONT_CHANNEL_01,
+                                )
+                            ]
+                        ]
+                    ),
                             parse_mode=ParseMode.MARKDOWN
                         )
                     else:
