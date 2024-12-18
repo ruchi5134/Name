@@ -1,6 +1,7 @@
 import requests
 from PURVIMUSIC import app
 from pyrogram.types import Message
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram.enums import ChatAction, ParseMode
 from pyrogram import filters
 
