@@ -33,8 +33,7 @@ for filename in os.listdir(r"./strings/langs/"):
         print("There is some issue with the language file inside bot.")
         exit()
 
-
-    except Exception as e:
+except Exception as e:
                 import traceback 
                 print(f"Error loading {filename}: {e}")
                 traceback.print_exc()
