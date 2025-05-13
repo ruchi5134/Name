@@ -74,8 +74,8 @@ async def chat_gpt(bot, message):
                         [
                             [
                                 InlineKeyboardButton(
-                                    " ʀᴀᴅᴇɴ-ᴍᴜꜱɪᴄ ",
-                                    url=f"https://t.me/hot_dpz_ll",
+                                    " ᴍᴀꜱᴏᴏᴍ-ᴍᴜꜱɪᴄ ",
+                                    url=f"https://t.me/masoomupdate",
                                 )
                             ]
                         ]
